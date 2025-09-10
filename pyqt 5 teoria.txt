@@ -10,8 +10,6 @@ self.setLayout(layout) # Aplicar Grid Layout a la ventana
 
 nombre = QLabel("Nombre:") # Crear etiqueta
 
-layout.addWidget(nombre) # Agregar Widgets la ventana, por ejemplo el QLabel "nombre"
-
 inputbox_nombre = QLineEdit() # Crear inputbox para ingresar texto
 
 layout.addWidget(self.subtitulo,0,0,0,0) # Agregar WIDGET a la ventana (self.WIDGET, Fila, Columna, Fila Spanning, Columna Spanning)
@@ -34,4 +32,6 @@ self.terminos = QCheckBox("Acepto los términos y condiciones") # QCheckBox perm
 
 # QPushButton ejecuta una función al hacer clic.
 
-CSS PyQt5
+# QDateEdit permite seleccionar una fecha.
+
+# QSpinBox permite elegir un número (Ej: cantidad de pasajeros).
